@@ -1,12 +1,12 @@
-var fruit=banana;
+var fruit="mango";
 
-switch (fruits) 
+switch (fruit) 
 {
-    case banana:
+    case "banana":
         console.log("banana");
         break;
 
-        case mango:
+        case "mango":
         console.log("mango");
            break; 
        
