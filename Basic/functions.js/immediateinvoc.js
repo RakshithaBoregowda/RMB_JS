@@ -1,4 +1,4 @@
-(function(a,b)
+(sum=function(a,b)
 {
    console.log(a+b); 
 })
