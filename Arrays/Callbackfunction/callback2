@@ -1,0 +1,12 @@
+function arithmetic(a,b, multiply)
+{
+    console.log("arithmetic operation startted")
+    result =mul(a,b)
+    console.log(result)
+    console.log("arithmetic operation ended")
+}
+function mul(a,b)
+{
+    return a*b;
+}
+arithmetic (2,3,mul)
