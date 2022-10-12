@@ -14,6 +14,7 @@ var openacc={
 var acc1=Object.create(openacc)
 {
     acc1.name="Ranju";//overriding 
+    
     acc1.city="mangalore";//overriding 
 
     console.log(acc1)

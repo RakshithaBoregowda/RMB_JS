@@ -16,8 +16,10 @@ var openacc2={}
 console.log(openacc2.name)
 //proto keyword
 openacc2.__proto__=openacc
+
 console.log(openacc)
 console.log(openacc2)
 openacc2.city="mangalore";
+
 console.log(openacc2)
 

@@ -6,6 +6,6 @@ for (let index = 0; index<arr.length; index++)
     console.log(index+" "+arr[index])
     continue;
     }
-   console.log("hii") 
+ console.log("hii")
 
 }

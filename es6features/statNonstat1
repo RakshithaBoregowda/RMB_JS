@@ -1,0 +1,38 @@
+class demo
+{
+    constructor(name, phno, city )
+    {
+        this.name=name;
+        this.phno=phno;
+        this.city=city;
+    }
+
+    a=10;
+    static b=20;
+
+    meth1()
+    {
+    this.a;
+    console.log("Inside the non-static meth")
+   }
+
+    static meth2()
+    {
+    // this.b=45;
+    this.b;
+    console.log(this.b)
+    console.log("inside the static meth")
+    var m1=new demo();
+        m1.meth1();
+    }
+}
+
+ var demo1=new demo("Amar","9900679073","Bangalore");
+//  demo1.meth1()
+ demo.meth2()
+ 
+
+ 
+
+
+

@@ -1,0 +1,38 @@
+//standard function
+// function data(a,b)
+// {
+//     console.log("addition of two numbers:"+(a+b))
+// }
+// data(2,4)
+
+//function expression
+// var sub=function sub(a,b)
+// {
+// console.log("substraction of two numbers"+(a-b))
+// }
+// sub(4,2)
+
+//Immediate invocable function 
+// (function(a,b)
+// {
+//    console.log(a*b)
+// })
+// (2,3)
+
+
+//arrow function
+var sum =(a,b)=>
+{
+if(a>b)
+{
+    console.log("a is greater")
+}
+else
+{
+    console.log("b is greater")
+}
+}
+sum(3,5)
+
+
+
